@@ -1,0 +1,40 @@
+.container{
+  height: 100vh;
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+/* 头像 */
+.avat{
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+/* 温度和天气 */
+text{
+  font-size: 50rpx;
+  color: #3c5f81;
+}
+/* 天气状态图片 */
+.status{
+  height: 80px;
+}
+/* 其它详情 */
+.detail{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.bar{
+  display: flex;
+  flex-direction: row;
+  margin: 20rpx 0;
+}
+.box{
+  width: 33.3%;
+  text-align: center;
+}
